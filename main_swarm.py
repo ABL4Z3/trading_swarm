@@ -18,8 +18,8 @@ NEWS_INTERVAL = 3600
 RISK_MODEL_PATH = "risk_agent_v1.zip"
 
 # --- HARDCODED KEYS (MATCHING YOUR WORKING TEST.PY) ---
-API_KEY = 'tZ8xOTZSpeVhJPGqj1SE292l8gSC2E8bqbTjWfho55mBH08r5horifHkN51VzCoE'
-SECRET_KEY = 'w2Oq0ESyEpIoSp7izYfOLKPT82eYn2fncvwSwPd6sAF6WLZjJy3UcvGz8mpt2p83'
+API_KEY = ''
+SECRET_KEY = ''
 
 # ==========================================
 #        LOGGING SETUP
@@ -262,4 +262,5 @@ def run_swarm():
             time.sleep(10)
 
 if __name__ == "__main__":
+
     run_swarm()
