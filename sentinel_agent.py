@@ -4,7 +4,7 @@ from langchain_ollama import OllamaLLM
 import urllib3
 
 # --- CONFIGURATION ---
-API_KEY = 'bfabc911b30415403563f8b084747488bfcf3e99'  
+API_KEY = ''  
 CURRENCY = 'BTC'
 MODEL_NAME = "llama3.2" 
 
@@ -97,4 +97,5 @@ if __name__ == "__main__":
         else:
             print("Action: STANDARD Risk.")
     else:
+
         print("Failed to get news.")
